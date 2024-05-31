@@ -8,7 +8,7 @@ COPY requirements.txt .
 
 RUN pip3 install -r requirements.txt
 #Commandes run combinés Bonne Pratique
-RUN apt-get update && apt-get-install -y
+RUN apt-get update && apt-get install -y
 
 #Supprimer les fichiers d'installation des packages
 
